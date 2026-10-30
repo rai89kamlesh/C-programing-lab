@@ -6,11 +6,11 @@ int main(){
 	scanf("%d",&n);
 	int i=1;
 	int count=0;
-	while(i<=n){
+	for(int i=1; i<=n;i++){
+	
 		if(n%i==0){
 			count++;
 		}
-		i++;
 		
 	}
 	if(count==2){
